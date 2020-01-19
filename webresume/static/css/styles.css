@@ -47,6 +47,7 @@ div#navbar a{
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: calc(var(--vw, 1vw) * 100);
+    min-width: 1071px;
 
     padding: 0;
 }
