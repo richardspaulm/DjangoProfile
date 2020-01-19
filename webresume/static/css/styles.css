@@ -43,8 +43,8 @@ div#navbar a{
     color: white;
 }
 .page_container{
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    /* height: 100vh; */
     min-height: -webkit-fill-available;
     min-width: -webkit-fill-available;
     padding: 0;
