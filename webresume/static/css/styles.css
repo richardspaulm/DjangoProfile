@@ -27,7 +27,6 @@ div#navbar a{
 #navbar div a:hover{
     text-decoration: none;
     color: black;
-    
 }
 #home{
     background-color: #F8E9A1;
@@ -46,10 +45,6 @@ div#navbar a{
 .page_container{
     width: 100vw;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    width: calc(var(--vw, 1vw) * 100);
-    min-width: 1071px;
-
     padding: 0;
 }
 #index_view{
@@ -119,7 +114,6 @@ h1, h4{
 .detail_view{
     position: absolute;
     width: 100vw;
-    min-width: 1071px;
     background-color: #24305E;
     height: 100vh
 }
