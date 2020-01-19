@@ -1,0 +1,33 @@
+{% extends "base_generic.html" %}
+{%block navbar %}{% endblock %}
+{% block content %}
+<div id="prj_head">
+    <h1 style="text-align: center;">Projects I've worked on</h1>
+    <h2 style="margin-bottom: 10px;">Click on a project to see more details.</h2>
+    <h4><a href="{% url 'index' %}" style="color: white; text-align: center;">Click Here</a> to go home.</h4>
+</div>
+
+  {% if object_list %}
+  <div class="fluid-container">
+      <div class="row">
+    {% for project in object_list %}
+        <div class="col-md-3 prj_details">
+            <h2 style="margin-bottom: 10px">{{project.title}}</h2>
+            <p style="text-align: center;">{{ project.genre.all|join:"<br>" }}</p>
+        </div>
+
+<!--     
+      <li>
+        <a href="{{ object.get_absolute_url }}">{{ project.title }}</a>
+      </li> -->
+
+
+
+
+    {% endfor %}
+      </div>  
+  </div>
+  {% else %}
+    <p>There are no Projects in the library.</p>
+  {% endif %}       
+{% endblock %}

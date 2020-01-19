@@ -1,0 +1,82 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class='page_container' id="index_view">
+  <div id="index_info">
+    <h2>Hi, I'm Paul.</h2>
+    <p>I'm a full stack software engineer.</p>
+    <p>This is my website.</p>
+  </div>
+</div>
+<div class='page_container' id='about_view'>
+  <div id="about_info">
+    <h2>About Me</h2>
+    <p>Hi, I'm Paul. I'm a full stack web developer, server administrator, and sometimes a mobile/desktop developer</p>
+    <p>I live in India, where I lead a team of software developers in Gangtok, Sikkim. We do a bunch of cool stuff, like web development, machine learning, mobile development, and more</p>
+    <p>Before that, I was in Cambodia where I taught English and designed websites. Before that, I was in Florida where I spent the latter half of my childhood. Before that, I was in Massachusetts, and before that, I was nobody. Literally.</p>
+    <p>I like building stuff. Like this website. And a lot of other websites. And a few applications. Also a few machine learning models.</p>
+    <p>If you keep going, you can see some of the details of the things I've worked on below.</p>
+  </div>
+</div>
+<div class='page_container' id='work_view' style='background-color: #A8D0E6; color: white;'>
+    <div class='row col-md-12' style='padding: 0'>
+      <div class="col-md-3 work_container" style='background-color: #24305E; color: white;'>
+        <a href="subjects/1" style="color: white">
+          <h2>Machine Learning</h2>
+          <img class='work_img' src="../static/ml_icon.png"/>
+        </a>
+      </div>
+      </a>
+      <div class="col-md-3 work_container" style='background-color: #374785; color: white;'>
+        <a href="subjects/3" style="color: white">
+          <h2>Data/APIs</h2>
+          <img class='work_img' src='../static/api_icon.png'/>
+        </a>
+      </div>
+      <div class="col-md-3s work_container" style="padding: 30px;">
+        <h2>My Work</h2>
+        <p>Here's some of my work.</p>
+        <p>Click on any of the subjects for more<br>specific details of projects<br>I've worked on.</p>
+        <p><a href="{% url 'projects' %}" style="color: white"><strong>Click Here</strong></a> for a list of projects.</p>
+      </div>
+    </div>
+    <div class="row col-md-12" style='padding: 0'>
+      <div class='col-md-3 work_container' style='background-color: #A8D0E6; color: white;'>
+        <a href="subjects/2" style="color: white">
+          <h2>Mobile Apps</h2>
+          <img class='work_img' src='../static/mobile_icon.png'/>
+        </a>
+      </div>
+      <div class='col-md-3 work_container' style='background-color: #F76C6C; color: white;'>
+        <a href="subjects/4" style="color: white">
+          <h2>Server Admin</h2>
+          <img class='work_img' src='../static/server.png'/>
+        </a>
+      </div>
+      <div class='col-md-3 work_container'style="background-color: #24305E; color: white;">
+        <a href="subjects/5" style="color: white">
+          <h2>Web Development</h2>
+          <img class='work_img' src='../static/dev.png'/>
+        </a>
+      </div>
+      <div class='col-md-3 work_container'></div>
+    </div>
+  </div>
+</div>
+<div class="page_container" id="contact_view" style='background-color: #374785; color: white;'>
+  <div class="row" style="height: 100%">
+    <div class="col-md-4">
+      <img src="../static/contact.png" style="width: 30vw; margin-top: 20vh;"/> 
+    </div>
+    <div class="col-md-5">
+      <h2 style='font-size: 50px; margin-top: 150px;'>Get in touch</h2>
+      <p><strong>Email:</strong> richardspaulm@gmail.com</p>
+      <p><strong>Phone:</strong> +91(707) 650-5445</p>
+      <p><strong>IP Phone:</strong> (970) 373-4366</p>
+      <p><strong>Skype:</strong> paul.richardsm</p>
+      <p><strong>LinkedIn:</strong> <a style="color: white;" href='https://www.linkedin.com/in/paul-richards-747351182/'>linkedin.com/in/paul-richards-747351182/</a></p>
+      <p><strong>Github:</strong> <a style="color: white;" href='https://www.github.com/richardspaulm'>github.com/richardspaulm</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
