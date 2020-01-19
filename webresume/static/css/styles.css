@@ -52,12 +52,23 @@ div#navbar a{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#contact_view{
+    background-image: url("../grid.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
 #about_view{
-    background-image: url("../about_side.png");
+    /* background-image: url("../about_side.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 100vh;
+    background-size: 100vh; */
     background-color: #9bc4d6;
+}
+#about_img{
+    position: absolute;
+    height: 80vh;
+    top: 110vh;
+    left: 700px;
 }
 /* #contact_view{
     background-image: url("../contact.png");
