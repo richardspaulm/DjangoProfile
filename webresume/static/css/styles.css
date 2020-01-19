@@ -45,6 +45,8 @@ div#navbar a{
 .page_container{
     width: 100vw;
     height: 100vh;
+    min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
     padding: 0;
 }
 #index_view{
