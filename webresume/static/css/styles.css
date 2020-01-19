@@ -3,6 +3,7 @@
     padding: 0;
     overflow-x: hidden;
     overscroll-behavior: contain;
+    overflow: hidden;
 }
 #navbar{
     position: fixed;
