@@ -48,7 +48,7 @@ div#navbar a{
     padding: 0;
 }
 #index_view{
-    background-image: url("../bg.jpg");
+    background-image: url("../main.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
