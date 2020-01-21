@@ -36,7 +36,6 @@ class GenreListView(generic.ListView):
         return render(request, 'subjects/subject_list.html', context)
 
 
-
 class ProjectListView(generic.ListView):
     model = Project
     context_object_name = "my_project_view"
