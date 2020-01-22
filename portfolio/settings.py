@@ -74,7 +74,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'portfolio.wsgi.application'
-ALLOWED_HOSTS = ['afternoon-citadel-33282.herokuapp.com','127.0.0.1', 'richardswebservices.com']
+ALLOWED_HOSTS = ['afternoon-citadel-33282.herokuapp.com','127.0.0.1', 'richardswebservices.com', 'richardspaulm.pythonanywhere.com']
 
 
 # Database
